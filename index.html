@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<title>Lebenslauf</title>
+</head>
+
+<body>
+	<div class="page">
+
+		<header class="container-header">Lebenslauf</header>
+		
+		<div class="container-pd">
+			<div class="container-photo">
+				<img id="link_photo" src="" alt="..." />
+			</div>
+			<div class="container-without-photo">
+				<div class="container-h2">Persönliche Daten</div>
+				<div>
+					<div class="container-col">Name:</div>
+					<div id="pd_name" class="container-col"></div>
+				</div>
+				<div>
+					<div class="container-col">Geburtsdatum:</div>
+					<div id="pd_date_of_birth" class="container-col"></div>
+				</div>
+				<div>
+					<div>
+						<div class="container-col">Familienstand:</div>
+						<div id="pd_family_status" class="container-col"></div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="container-col">Staatangehörigkeit:</div>
+						<div id="pd_nationality" class="container-col"></div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="container-col">E-Mail:</div>
+						<div class="container-col"><a id="pd_email" class="container-col-a" href=></a></div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="container-col">Telefon:</div>
+						<div id="pd_phone" class="container-col"></div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="container-col">GitHub:</div>
+						<div class="container-col"><a id="pd_GitHub" class="container-col-a" href="" target="_blank">/</a></div>
+					</div>
+				</div>
+				<div>
+					<div>
+						<div class="container-col">Adresse:</div>
+						<div id="pd_address" class="container-col"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-section">
+			<div class="container-h2 section-h2"><button id="button_02" class="button">Berufserfahrung&#9650;</button></div>
+			<div id="experience">
+				<div id="experience_row" class="border-punkt content-hidden">
+					<div id="experience_period" class="container-col section-col-sm"></div>
+					<div class="container-col section-col">
+						<ul id="experience_name" class="section-bold">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-section">
+			<div class="container-h2 section-h2" data-name="button-title"><button class="button">Bildung&#9650;</button></div>
+			<div id="education">
+				<div id="education_row" class="border-punkt content-hidden">
+					<div id="education_period" class="container-col section-col-sm"></div>
+					<div class="container-col section-col">
+						<ul class="section-bold"><a id="education_name" class="container-col-a" href="" target="_blank"></a>
+							<li id="education_faculty"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-section">
+			<div class="container-h2 section-h2" data-name="button-title"><button class="button">Kenntnisse&#9650;</button></div>
+			<div>
+				<div id="knowledge" class="border-punkt">
+					<div id="knowledge_row" class="content-hidden">
+						<div id="knowledge_key" class="container-col section-col-sm"></div>
+						<div id="knowledge_name" class="container-col section-col">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<Script src="read_json.mjs"></Script>
+	<Script src="index.js"></Script>
+</body>
+
+</html>

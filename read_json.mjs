@@ -1,11 +1,19 @@
+var requestURL = "person.json";
+var request = new XMLHttpRequest();
+request.open("GET", requestURL);
+request.responseType = "json";
+request.send();
+request.onload = function () {
+	const data = request.response;
+};
 
-// name from relevant file mjs
-// import data from './static/json/person.json' assert { type: 'json' };
+// import data_ from './static/json/person.json' assert { type: 'json' };
+// console.log(data_);
 
-let data = [
+let data_ = [
     {
         "link_photo": "no_name.jpg",
-        "name": "Unknown",
+        "name": "Unknown_",
         "date_of_birth": "01.01.1980",
 		"family_status": "-",
 		"nationality": "marsianin",	
@@ -80,6 +88,7 @@ let data = [
 		}]
     }
 ];
+
 
 // Persönliche Daten
 document.getElementById("link_photo").src=data[0].link_photo;

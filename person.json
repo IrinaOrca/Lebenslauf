@@ -1,0 +1,78 @@
+[
+    {
+        "link_photo": "static/images/no_name.jpg",
+        "name": "Unknown",
+        "date_of_birth": "01.01.1980",
+		"family_status": "-",
+		"nationality": "marsianin",	
+		"email": "unknown_01011980@gmail.com",
+		"phone": "+49 160 000 00 000",
+		"GitHub": "https://github.com/",
+		"address": "Deutschland"
+    },
+    {
+        "experience": [
+            {
+                "period": "2022 –",
+                "name": "Goodle",
+                "tasks": ["beraten"]
+            },
+            {
+                "period": "2020 – 2022",
+                "name": "Microsoft",
+                "tasks": [
+                    "leiten",
+                    "beraten",
+					"Tee trinken",
+					"schlaffen"
+				]
+            },
+            {
+				"period": "2015 - 2020",
+				"name": "IBM",
+				"tasks":[
+					"sitzen"
+				]
+			},
+            {
+				"period": "2010 - 2015",
+				"name": "Open AI",
+				"tasks":[
+					"stehen"
+				]
+			},
+            {
+				"period": "2005 - 2010",
+				"name": "AMD",
+				"tasks":[
+					"fliegen"
+				]
+			},
+            {
+				"period": "2000 – 2010",
+				"name": "Audi",
+				"tasks": [
+					"testen"
+				]
+			}
+        ]
+    },
+    {
+        "education": [{
+			"period": "1995 – 2000",
+			"link_education": "https://www.fu-berlin.de/en/index.html",
+			"name": "Freie Universität Berlin",
+			"faculty": "Fachrichtung: Management"
+		}]
+    },
+    {
+        "knowledge": [{
+			"key":"Software:",
+			"name": ["MS Office"]	
+		}, 
+		{
+			"key":"Sprachen:",
+			"name": ["Deutsch – Muttersprache, Englisch – Intermediate","Spanisch"]
+		}]
+    }
+]

@@ -1,17 +1,15 @@
-let data = [];
-var requestURL = "https://irinaorca.github.io/Lebenslauf/person.json";
+var requestURL = "/Lebenslauf/person.json";
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 request.onload = function () {
 	let data = request.response;
+	fil_document(data);
 };
 
-if (!data.length == 0) {
-	
+function fil_document(data) {
 	// Persönliche Daten
-
 	document.getElementById("link_photo").src=data[0].link_photo;
 	document.getElementById("pd_name").innerHTML = data[0].name;
 	document.getElementById("pd_date_of_birth").innerHTML = data[0].date_of_birth;
@@ -73,11 +71,6 @@ if (!data.length == 0) {
 			li.classList.add("container-col-p");
 			ul.appendChild(li);	
 		}	
+
 	} 
-};
-
-// import data_ from './static/json/person.json' assert { type: 'json' };
-// console.log(data_);
-
-
-
+}
